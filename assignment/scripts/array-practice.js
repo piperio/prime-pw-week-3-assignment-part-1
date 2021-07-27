@@ -7,22 +7,21 @@ console.log('--- 1. Practice creating arrays ---');
 let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
-// 1.a. TODO: Make an array with some favorite foods
+let favoriteFoodsArray = ['spaghetti', 'sushi', 'shrimp fried rice', 'spinach curry', 'mushroom cheeseburger and fries'];
 
-
-// 1.b. TODO: Log your array of foods to the console with a message, similar 
+// 1.b. TODO: Log your array of foods to the console with a message, similar
 //      to the example above
 
-
+console.log('Favorite Foods are: ', 'favoriteFoodsArray');
 
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
 
-// Example: How many animals are in the array? 
+// Example: How many animals are in the array?
 console.log('Number of animals:', animalArray.length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
-
+console.log('Number of Favorite Foods:', favoriteFoodsArray.length);
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
@@ -30,16 +29,16 @@ console.log('--- 3. Accessing items in an array ---');
 // Example: Log the first animal from the array using it's array index
 console.log('First animal is', animalArray[0])
 
-// 3.a. TODO: Log the second animal in the array 
+// 3.a. TODO: Log the second animal in the array
+console.log('Second animal is', animalArray[1])
 
+// 3.b. TODO: Log the last animal in the array using it's array index
 
-// 3.b. TODO: Log the last animal in the array using it's array index 
-
-
-// 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
+console.log('Last animal is', animalArray[3])
+// 3.c. (STRETCH) TODO: Log the last animal by using the array length,
 //      instead of the exact index number of the last item
-
-
+let lastElement = animalArray[animalArray.length -1];
+console.log('Last animal is', lastElement);
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
@@ -57,7 +56,7 @@ let removedAnimal = animalArray.pop();
 console.log('Removed the last animal', removedAnimal);
 console.log('The animals are now', animalArray);
 
-// 4.b. TODO: Remove the food at the end of your array & 
+// 4.b. TODO: Remove the food at the end of your array &
 //      log both the food removed and the updated array
 
 
@@ -73,5 +72,5 @@ removedAnimal = animalArray.shift();
 console.log('Removed the first animal', removedAnimal);
 console.log('The animals are now', animalArray);
 
-// 4.d TODO: Remove the food at the beginning of your array & 
+// 4.d TODO: Remove the food at the beginning of your array &
 //     log both the food removed and the updated array
